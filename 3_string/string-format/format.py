@@ -20,3 +20,19 @@ print(txt)
 
 txt = f"The price is {price * 2} dollars"
 print(txt)
+
+# name = input("Enter Your Name :")
+# print(f"Hello {name} ")
+
+letter = '''Dear <|Name|>,
+You are selected!
+<|Date|>'''
+
+print(letter.replace("<|Name|>", "Ritik").replace("<|Date|>","2025") )
+
+name = "My name is  Ritik Raj"
+print(name.find("  "))
+print(name.replace("  ", " "))
+
+letter = "Dear Ritik, \n\tthis python course is nice. \nThanks!"
+print(letter)
